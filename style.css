@@ -1,0 +1,170 @@
+
+  /* Reset CSS
+   * --------------------------------------- */
+  body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+  form,fieldset,input,textarea,p,blockquote,th,td {
+      padding: 0;
+      margin: 0;
+  }
+  a{
+    text-decoration:none;
+  }
+  table {
+      border-spacing: 0;
+  }
+  fieldset,img {
+      border: 0;
+  }
+  address,caption,cite,code,dfn,em,strong,th,var {
+      font-weight: normal;
+      font-style: normal;
+  }
+  strong{
+    font-weight: bold;
+  }
+  ol,ul {
+      list-style: none;
+      margin:0;
+      padding:0;
+  }
+  caption,th {
+      text-align: left;
+
+  }
+  h1,h2,h3,h4,h5,h6 {
+      font-weight: normal;
+      font-size: 100%;
+      margin:0;
+      padding:0;
+  }
+  q:before,q:after {
+      content:'';
+  }
+  abbr,acronym { border: 0;
+  }
+
+
+  /* Custom CSS
+   * --------------------------------------- */
+  body{
+    /*font-family: "Roboto-thin";*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #F2F2F2;
+  }
+  h1{
+    font-size: 4em;
+    color: #000;
+
+  }
+  h2{
+    font-size: 2em;
+    color: #999699;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+  }
+  h3{
+    font-size: 1em;
+    position: relative;
+    color: #999699;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    left: -50%;
+  }
+  p{
+    font-size: 4em;
+  }
+  .content{
+    position: relative;
+    top: 47%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .container{
+    display: flex;
+  }
+  .column{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .header{
+    flex:2;
+    flex-direction: column;
+    /*background-color: red;*/
+    text-align: center;
+
+
+
+  }
+  .body{
+    flex:2;
+    flex-direction: row;
+  }
+
+  .footer{
+    /*background-color: green;*/
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    /*width: 33%;*/
+    display: flex;
+    align-self: center;
+    padding-top: 5%;
+  }
+  .img{
+    flex:1;
+    flex-direction: column;
+    opacity: 0.3;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+
+  }
+  #ready {
+    opacity: 1;
+  }
+  #right{
+    text-align: left;
+  }
+
+
+
+  /* Section 1
+   * --------------------------------------- */
+  #section0 h2{
+    letter-spacing: 0px;
+
+  }
+
+
+
+  /* Section 2
+   * -------------------------------------- */
+  #section1{
+
+  }
+  #section1 h2 {
+    letter-spacing: 20px;
+  }
+
+
+
+  /* Section 3
+   * --------------------------------------- */
+  #section2{
+
+  }
+  #section2 h2 {
+    letter-spacing: 14px;
+  }
+
+
+
+  /* Section 4
+   * --------------------------------------- */
+  #section3{
+
+  }
